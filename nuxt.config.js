@@ -1,4 +1,4 @@
-const apiBaseUrl = 'https://api.netlify.com/api/v1/'
+// const apiBaseUrl = 'https://api.netlify.com/api/v1'
 
 import axios from 'axios'
 
@@ -24,7 +24,7 @@ module.exports = {
 
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
-    baseURL: apiBaseUrl
+    // baseURL: apiBaseUrl
   },
 
   /*
