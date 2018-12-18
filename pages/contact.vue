@@ -29,3 +29,11 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  mounted() {
+    this.$store.dispatch('content/loadContent')
+  }
+}
+</script>
